@@ -13,7 +13,7 @@ import pandas as pd
 from datetime import datetime
 
 if not (2 <= len(sys.argv) <= 4):
-    print('Usage: plot-jitter <sysjitter-summary.txt> <freezable.out> <output.pdf>')
+    print('Usage: plot-sysjitter <sysjitter-summary.txt> <freezable.out> <output.pdf>')
     sys.exit(2)
 
 fname_summary   = sys.argv[1]
