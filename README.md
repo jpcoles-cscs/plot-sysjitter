@@ -41,5 +41,5 @@ First run `sysjitter` and the `find-freezable` script
 Next, provide the two output files as input to `plot-sysjitter` and provide an output file for the graph.
 
 ```shell
-plot-sysjitter --summary_file ./summary.txt --image_file ./jitter_study.png --author_name Ed --author_email ed@edmole.com 
+./plot-sysjitter --summary_file ./summary.txt --image_file ./jitter_study.png --author_name Ed --author_email ed@edmole.com 
 ```
