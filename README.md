@@ -32,9 +32,8 @@ options:
 
 # Usage
 
-First run `sysjitter` and the `find-freezable` script
+First run `sysjitter` 
 ```shell
-./find-freezable > freezable.out
 ./sysjitter --runtime 60 --verbose 300 > summary.txt
 ```
 
