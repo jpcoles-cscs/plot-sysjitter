@@ -32,14 +32,16 @@ options:
 
 # Usage
 
-First run `sysjitter` and the `find-freezable` script
+First run `sysjitter` 
 ```shell
-./find-freezable > freezable.out
 ./sysjitter --runtime 60 --verbose 300 > summary.txt
 ```
 
-Next, provide the two output files as input to `plot-sysjitter` and provide an output file for the graph.
+Next, provide the two output file as input to `plot-sysjitter` and provide an output file for the graph.
 
 ```shell
 ./plot-sysjitter --summary_file ./summary.txt --image_file ./jitter_study.png --author_name Ed --author_email ed@edmole.com 
 ```
+The output below shows resulting `jitter_study.png` file. In the plots below the data was captured from a Raspberry Pi 5, running the Raspbian OS Lite.
+![image info](./jitter_study_pi5.png)
+
